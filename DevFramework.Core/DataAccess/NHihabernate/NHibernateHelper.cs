@@ -22,6 +22,10 @@ namespace DevFramework.Core.DataAccess.NHihabernate
         {
             return SessionFactory.OpenSession();
         }
+        public void Go()
+        {
+            Console.WriteLine("I am going.");
+        }
 
         public void Dispose()
         {
